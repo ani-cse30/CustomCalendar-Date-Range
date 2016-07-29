@@ -34,19 +34,8 @@ NSString *selectedLbl;
     [self drawCalendar:[_yearLabel text]];
     
     
-    
-    
 }
 
--(void)viewDidLayoutSubviews
-{
-    // The scrollview needs to know the content size for it to work correctly
-    //    self.calendarScroll.contentSize = CGSizeMake(0, 2000);
-    //    self.calendarScroll.contentSize = CGSizeMake(
-    //                                             self.scrollContent.frame.size.width,
-    //                                             self.scrollContent.frame.size.height + 300
-    //                                             );
-}
 
 -(void)drawCalendar:(NSString*)year{
     for (UIView *v  in [_calendarScroll subviews])

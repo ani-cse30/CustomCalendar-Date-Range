@@ -62,13 +62,13 @@
 		0724AAB51D194A2E002A24EC /* CustomCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				078228131D1BCB9400FBB794 /* Button-tap.png */,
 				0724AAB91D194A2E002A24EC /* AppDelegate.h */,
 				0724AABA1D194A2E002A24EC /* AppDelegate.m */,
 				0724AABC1D194A2E002A24EC /* ViewController.h */,
 				0724AABD1D194A2E002A24EC /* ViewController.m */,
 				0724AABF1D194A2E002A24EC /* Main.storyboard */,
 				0724AAC51D194A2E002A24EC /* Assets.xcassets */,
+				078228131D1BCB9400FBB794 /* Button-tap.png */,
 				0724AAC71D194A2E002A24EC /* LaunchScreen.storyboard */,
 				0724AACA1D194A2E002A24EC /* Info.plist */,
 				0724AAC21D194A2E002A24EC /* CustomCalendar.xcdatamodeld */,
