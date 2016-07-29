@@ -14,6 +14,7 @@
 		0724AAC41D194A2E002A24EC /* CustomCalendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0724AAC21D194A2E002A24EC /* CustomCalendar.xcdatamodeld */; };
 		0724AAC61D194A2E002A24EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0724AAC51D194A2E002A24EC /* Assets.xcassets */; };
 		0724AAC91D194A2E002A24EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0724AAC71D194A2E002A24EC /* LaunchScreen.storyboard */; };
+		078228141D1BCB9400FBB794 /* Button-tap.png in Resources */ = {isa = PBXBuildFile; fileRef = 078228131D1BCB9400FBB794 /* Button-tap.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0724AAC51D194A2E002A24EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0724AAC81D194A2E002A24EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0724AACA1D194A2E002A24EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		078228131D1BCB9400FBB794 /* Button-tap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-tap.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		0724AAB51D194A2E002A24EC /* CustomCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				078228131D1BCB9400FBB794 /* Button-tap.png */,
 				0724AAB91D194A2E002A24EC /* AppDelegate.h */,
 				0724AABA1D194A2E002A24EC /* AppDelegate.m */,
 				0724AABC1D194A2E002A24EC /* ViewController.h */,
@@ -113,6 +116,7 @@
 				TargetAttributes = {
 					0724AAB21D194A2E002A24EC = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7VT6555VUS;
 					};
 				};
 			};
@@ -139,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				078228141D1BCB9400FBB794 /* Button-tap.png in Resources */,
 				0724AAC91D194A2E002A24EC /* LaunchScreen.storyboard in Resources */,
 				0724AAC61D194A2E002A24EC /* Assets.xcassets in Resources */,
 				0724AAC11D194A2E002A24EC /* Main.storyboard in Resources */,
@@ -267,10 +272,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CustomCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xor.CustomCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -278,10 +286,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CustomCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xor.CustomCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -304,6 +315,7 @@
 				0724AACF1D194A2E002A24EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIScrollView *calendarScroll;
+@property (strong, nonatomic) IBOutlet UILabel *yearLabel;
+- (IBAction)PreviousButton:(id)sender;
+- (IBAction)ForwordButton:(id)sender;
 
 @end
 
